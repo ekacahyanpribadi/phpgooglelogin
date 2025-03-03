@@ -7,9 +7,10 @@ session_start();
 include_once 'google-client/Google_Client.php';
 include_once 'google-client/contrib/Google_Oauth2Service.php';
 
-$client_id = '861932374990-346pi6r92padcgeeailv1lfehngotije.apps.googleusercontent.com'; // Google client ID
-$client_secret = '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'; // Google Client Secret
+$client_id = '861932374990-346pi6r92padcgeeailv1lfehngotijee.apps.googleusercontent.com'; // Google client ID remove last
+$client_secret = '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h'; // Google Client Secret remove last
 $redirect_url = 'https://s1.cbcomtech.my.id/phpgooglelogin/lib/google.php'; // Callback URL
+
 
 // Call Google API
 $gclient = new Google_Client();
