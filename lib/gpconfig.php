@@ -7,8 +7,8 @@ session_start();
 include_once 'google-client/Google_Client.php';
 include_once 'google-client/contrib/Google_Oauth2Service.php';
 
-$client_id = '861932374990-346pi6r92padcgeeailv1lfehngotijee.apps.googleusercontent.com'; // Google client ID remove last
-$client_secret = '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h'; // Google Client Secret remove last
+$client_id = 'client_id'; // Google client ID remove last
+$client_secret = 'client_secret'; // Google Client Secret remove last
 $redirect_url = 'https://s1.cbcomtech.my.id/phpgooglelogin/lib/google.php'; // Callback URL
 
 
